@@ -12,6 +12,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .btn-primary {
@@ -50,3 +51,29 @@ nav a {
     text-decoration: none;
     color: var(--Dark-02, #474747);
 }
+/* header related styles */
+/*.header{
+    background:#FFF8F3;
+
+    Colors
+    Hex
+    #FFF8F3
+    Export
+    
+    Copy
+    Ctrl+C
+    Screenreader support for the board is currently disabled. To enable it via Accessibility settings, press Ctrl+/, type Accessibility Settings, and press Enter. To see available keyboard shortcuts, enter Ctrl+Shift+Question mark .
+     ;
+     background-color: #FFF8F3;*/
+     .header{
+        background-color: lightseagreen;
+
+     }
+     .banner{
+        padding: 30px 30px 30px 150px;
+        display: flex;
+        align-items: center;
+     }
+    .banner .profie-pic{
+        width: 300px;
+    }
